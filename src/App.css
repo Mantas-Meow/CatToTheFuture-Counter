@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: Lovelo;
+  src: url("Assets/Lovelo\ Line\ Bold.otf") format("opentype");
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App
+{
+  width: 100vw;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-image: linear-gradient(
+    0deg,
+    hsl(0deg 55% 35%) 0%,
+    hsl(317deg 100% 25%) 33%,
+    hsl(284deg 99% 20%) 67%,
+    hsl(284deg 100% 12%) 100%
+  );
+}
+
+.Heading
+{
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-family: Lovelo;
+  text-transform: uppercase;
+  color: aliceblue;
+  padding-top: 3vh;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  font-size: 10vw;
+  text-shadow: 
+    0 0 5px #fff, 
+    0 0 10px #fff, 
+    0 0 15px #9f01be, 
+    0 0 20px #9f01be, 
+    0 0 25px #9f01be, 
+    0 0 30px #9f01be, 
+    0 0 35px #9f01be;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Clock
+{
+  display: flex;
+  justify-content: center;
+  font-family: Lovelo;
+  text-transform: uppercase;
+  color: aliceblue;
+  padding-top: 5vh;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  font-size: 4vw;
+  text-shadow: 
+    0 0 5px #fff, 
+    0 0 10px #fff, 
+    0 0 15px #9f01be, 
+    0 0 20px #9f01be, 
+    0 0 25px #9f01be, 
+    0 0 30px #9f01be, 
+    0 0 35px #9f01be;
+  
 }
